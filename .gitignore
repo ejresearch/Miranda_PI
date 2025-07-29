@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+backend/venv/
+backend/__pycache__/
+backend/.pytest_cache/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# LightRAG storage
+data/*/lightrag_storage/
+lightrag_storage/
+
+# Logs
+*.log
+logs/
+
+# Build artifacts
+frontend/dist/
+frontend/build/
+backend/build/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+.coverage
+.nyc_output
+
+# Temporary files
+tmp/
+temp/
+*.tmp
