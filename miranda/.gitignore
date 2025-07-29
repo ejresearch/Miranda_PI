@@ -1,7 +1,17 @@
+# Dependencies
 node_modules/
 backend/venv/
 backend/__pycache__/
+
+# Environment
 .env
+*.log
+
+# Data
 *.db
+*.sqlite
 lightrag_storage/
+
+# Build
 frontend/dist/
+frontend/build/
